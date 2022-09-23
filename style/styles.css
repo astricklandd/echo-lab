@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+h1{
+  color:red;
+}
+
 h3 {
   font-family: 'Oswald', sans-serif;
 }
@@ -7,7 +11,7 @@ h3 {
 }
 body {
     background-image: url('https://wallpapercave.com/wp/wp6547495.jpg');
-    color: red;
+    
   }
   #outputDiv {
     display: none;
@@ -15,11 +19,15 @@ body {
 
   .row {
     color: white;
-    font-weight: bold;
-   
   }
-.nav-item {
-  color: red;
-
+.box{
+  border:3px solif #fff;
+  padding: 20px;
+}
+h5{
+  float: right;
+  font-weight: bold;
+  font-size:20px;
+  color:red;
 }
   
